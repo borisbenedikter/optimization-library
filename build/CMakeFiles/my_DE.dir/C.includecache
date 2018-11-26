@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/differential_evolution.h
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+mpi.h
+-
+
+/home/boris/.openmpi/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/home/boris/.openmpi/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/home/boris/.openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/home/boris/.openmpi/include/mpi_portable_platform.h
+omp.h
+/home/boris/.openmpi/include/omp.h
+omp.h
+/home/boris/.openmpi/include/omp.h
+
+/home/boris/Documenti/Libraries/Optimization/src/differential_evolution.c
+differential_evolution.h
+/home/boris/Documenti/Libraries/Optimization/src/differential_evolution.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libmy_DE.a  CMakeFiles/my_DE.dir/src/differential_evolution.c.o
+/usr/bin/ranlib ../lib/libmy_DE.a
